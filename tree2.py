@@ -560,6 +560,6 @@ for i in errors:
 f.write(x)
 f.close()
 
-x="~/Avijit/stanford-parser-full-2014-01-04/stanfordtemp.txt."+str(pi)
+x="./stanford-parser-full-2014-01-04/stanfordtemp.txt."+str(pi)
 #os.remove(x)
 os.system("rm -rf "+x)
